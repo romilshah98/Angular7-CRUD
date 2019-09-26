@@ -1,4 +1,5 @@
 <form #form="ngForm" (submit)="onSubmit(form)" autocomplete="off">
+  <!-- Adding EmployeeID as hidden Field -->
   <input type="hidden" name="EmployeeID" #EmployeeID="ngModel" [(ngModel)]="service.formData.EmployeeID">
   <div class="form-group">
     <label>Full Name</label>

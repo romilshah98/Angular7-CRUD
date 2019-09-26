@@ -8,8 +8,6 @@ import { EmployeeListComponent } from './employees/employee-list/employee-list.c
 import { EmployeeService } from './shared/employee.service';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-// import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-// import { ToastrModule } from 'ngx-toastr';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,8 +19,6 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     FormsModule,
     HttpClientModule,
-    // BrowserAnimationsModule,
-    // ToastrModule.forRoot()
   ],
   providers: [EmployeeService],
   bootstrap: [AppComponent]

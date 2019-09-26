@@ -1,8 +1,11 @@
 <table class="table table-hover">
+  <!-- To pic each employee from service list -->
   <tr *ngFor="let emp of service.list">
+    <!--(click)="populateForm(emp): To Populate Form using this Data -->
     <td (click)="populateForm(emp)">{{emp.EmpCode}}-{{emp.FullName}}</td>
     <td (click)="populateForm(emp)">{{emp.Position}}</td> 
     <td (click)="populateForm(emp)">{{emp.Mobile}}</td>
+    <!-- (click)="onDelete(emp.EmployeeID): To Delete this row  -->
     <td><button (click)="onDelete(emp.EmployeeID)" class="btn btn-sm btn-outline-danger">X</button></td>
   </tr>
 </table>
