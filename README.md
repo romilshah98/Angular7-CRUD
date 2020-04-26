@@ -1,5 +1,5 @@
 # Angular7 CRUD
- CRUD implimented in Angular7
+ CRUD implemented in Angular7
 
 Step1: Create the EmployeeDatabase in SQL Server. Create Employee table with fields EmployeeID(Primary key, auto increment), FullName, EmpCode, Mobile and Position.
 
